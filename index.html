@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roshan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Roshan - Web Developer Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="/project.html"> Project</a></li>
+            <li><a href="#scroll">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div id="scroll" class="leftSection">
+          Hi, My name is <span class="purple">Roshan</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <a href="/Roshan's Resume.pdf"><button class="btn">Download Resume</button></a>
+            <button class="btn" onclick="location.href='https://github.com/RoshanMore27'">Github Link</button>
+            <button class="btn" onclick="location.href='https://www.linkedin.com/in/roshan-more-9b07bb218/'">LinkedIn Link</button>
+
+          </div>
+        </div>
+        <div class="rightSection"><img src="/images/bg.png" alt="" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What have I done so far</span>
+        <h1>Past Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <div class="vertical-title">Data Science with Machine Learning and python Internship (June 2021-August 2021)</div>
+            <div class="vertical-desc">
+              
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">Ethical Hacking Internship (July 2021-August 2021)</div>
+            <div class="vertical-desc">
+              
+            </div>
+          </div>
+          <div class="vertical">
+            
+            <div class="vertical-title">Basic HTML, CSS, Javascript</div>
+            <div class="vertical-desc">
+              
+            </div>
+          </div>
+          <div class="vertical">
+            
+            <div class="vertical-title">Basic MongoDB</div>
+            <div class="vertical-desc">
+              
+            </div>
+          </div> 
+          <div class="vertical">
+            <div class="vertical-title">Learning Javascript Framework ReactJS</div>
+            <div class="vertical-desc">
+            </div>
+          </div>
+                 
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first"><h4>Roshan's Developer Portfolio</h4></div>
+      </div>
+      <div class="footer-rights">Copyright &#169;All rights reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Sports Lover", "Music Lover", "Web Developer..."],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>

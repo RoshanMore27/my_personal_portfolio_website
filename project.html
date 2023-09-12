@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <style>
+      body {
+        background-color: rgb(6, 6, 59);
+        color: white;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .first,
+      .second {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(12, 100, 215);
+        height: 50vh;
+        width: 600px;
+        align-items: center;
+      }
+      .links {
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        bottom: 0;
+        width: 100%;
+        height: 80px;
+        background-color: rgb(167, 50, 167);
+      }
+      .links button {
+        height: 50px;
+      }
+      p {
+        font-size: 15px;
+      }
+      .btn {
+        background: #012b47;
+        background-image: -webkit-linear-gradient(top, #2299e9, #2980b9);
+        background-image: -moz-linear-gradient(top, #2299e9, #2980b9);
+        background-image: -ms-linear-gradient(top, #2299e9, #2980b9);
+        background-image: -o-linear-gradient(top, #2299e9, #2980b9);
+        background-image: linear-gradient(to bottom, #2299e9, #2980b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        text-shadow: 0px 0px 0px #ebb5eb;
+        font-family: Arial;
+        color: rgb(14, 13, 14);
+        font-size: 17px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+      }
+
+      .btn:hover {
+        background: #3cb0fd;
+        background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+        background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <h1>Temperature Converter</h1>
+        <p>
+          -This project basically converts the Temperature from Celsius to
+          Fahrenheit and vice versa.
+        </p>
+        <p>-Technology used: HTML, CSS, Javascript</p>
+        <div class="links">
+          <button
+            class="btn"
+            onclick="location.href='https://github.com/RoshanMore27'"
+          >
+            Github Link
+          </button>
+        </div>
+      </div>
+      <div class="second">
+        <h1>Cricket Score Prediction</h1>
+        <p>
+          -This is a Machine Learning Project which analyzes the dataset and
+          predicts the cricket score after particular overs.
+        </p>
+        <p>-Technology used: Python</p>
+        <div class="links">
+          <button
+            class="btn"
+            onclick="location.href='https://github.com/RoshanMore27/Cricket_Score_Prediction_MachineLearning_Python'"
+          >
+            Github Link
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
